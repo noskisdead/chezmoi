@@ -15,7 +15,30 @@ packages=(
   # ---------------------------
 
   openvpn # VPN for cybersecurity, Hack The Box and TryHackMe
+  nmap    # Port Enumeration
   sqlmap  # Tool for automating SQL Injections
+  gobuster
+  ffuf-bin
+  hydra
+  metasploit
+  exploitdb
+  wireshark-qt
+  seclists
+  rockyou
+  wifite
+  aircrack-ng
+  hashcat
+  burpsuite
+  john
+  nikto
+  responder
+  gnu-netcat
+  impacket
+  reaver
+  mdk3
+  macchanger
+  bettercap
+  hash-identifier
 
   # ---------------------------
   # 🎮 Gaming
