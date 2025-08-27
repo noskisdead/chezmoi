@@ -93,6 +93,7 @@ packages=(
 
   zen-browser-bin # Web Browser
   kdeconnect      # Connect phone to PC, sync notifications, etc...
+  vesktop         # Modded Discord client
 
   # ---------------------------
   # 🧪 Fun / Miscellaneous
