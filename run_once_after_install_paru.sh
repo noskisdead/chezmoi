@@ -21,6 +21,7 @@ packages=(
   ffuf-bin
   hydra
   metasploit
+  python2-bin
   exploitdb
   wireshark-qt
   seclists
@@ -35,7 +36,7 @@ packages=(
   gnu-netcat
   impacket
   reaver
-  mdk3
+  mdk4
   macchanger
   bettercap
   hash-identifier
@@ -50,6 +51,8 @@ packages=(
   prismlauncher             # Minecraft Launcher
   steam                     # Gaming Library
   eden-bin                  # Switch Emulator
+  gamemode                  # Game optimization tool
+  gamescope                 # Game optimization tool
 
   # Gaming Accessories
   wii-u-gc-adapter # Gamecube controller adapter
@@ -98,11 +101,17 @@ packages=(
   pokego-bin      # Pokemon ascii
   qbittorrent     # Torrenting client
   mullvad-vpn-bin # VPN client
+  unrar           # RAR decompression support
+  7zip            # 7Z format support
 )
 
 echo "[chezmoi] Installing packages with paru..."
 paru -S --needed --noconfirm "${packages[@]}"
 echo "[chezmoi] Package installation complete."
+
+echo "[chezmoi] Configuring Starship..."
+starship preset nerd-font-symbols -o ~/.config/starship/starship.toml
+echo "[chezmoi] Starship was configured successfully."
 
 echo "[chezmoi] Configuring Fish..."
 fish -c 'fisher install catppuccin/fish jorgebucaran/autopair.fish icezyclon/zoxide.fish patrickf1/fzf.fish fishingline/safe-rm'
