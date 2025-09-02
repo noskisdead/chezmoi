@@ -99,11 +99,13 @@ packages=(
   # 🧪 Fun / Miscellaneous
   # ---------------------------
 
-  pokego-bin      # Pokemon ascii
-  qbittorrent     # Torrenting client
-  mullvad-vpn-bin # VPN client
-  unrar           # RAR decompression support
-  7zip            # 7Z format support
+  pokego-bin        # Pokemon ascii
+  qbittorrent       # Torrenting client
+  mullvad-vpn-bin   # VPN client
+  unrar             # RAR decompression support
+  7zip              # 7Z format support
+  gcadapter-oc-dkms # Overclock GameCube Adapter
+  yazi              # File Manager
 )
 
 echo "[chezmoi] Installing packages with paru..."
