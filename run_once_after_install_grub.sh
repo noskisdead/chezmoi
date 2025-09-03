@@ -1,10 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Exit on error
 set -e
 
 # Define theme variables
-THEME_NAME="catppuccin-mocha"
+THEME_NAME="catppuccin-mocha-grub-theme"
 THEME_DIR="/boot/themes/$THEME_NAME"
 REPO_URL="https://github.com/catppuccin/grub.git"
 
@@ -17,7 +17,7 @@ git clone --depth=1 "$REPO_URL" /tmp/catppuccin-grub
 sudo mkdir -p "$THEME_DIR"
 
 # Copy Mocha theme files
-sudo cp -r /tmp/catppuccin-grub/src/mocha/* "$THEME_DIR"
+sudo cp -r /tmp/catppuccin-grub/src/catppuccin-mocha-grub-theme/* "$THEME_DIR"
 
 # Set theme in GRUB config
 echo "[chezmoi] Setting theme in GRUB configuration..."
@@ -30,13 +30,9 @@ echo "GRUB_TIMEOUT=1" | sudo tee -a /etc/default/grub >/dev/null
 
 # Update GRUB
 echo "[chezmoi] Updating GRUB..."
-if [ -d /sys/firmware/efi ]; then
-  sudo grub-mkconfig -o /boot/efi/EFI/grub/grub.cfg
-else
-  sudo grub-mkconfig -o /boot/grub/grub.cfg
-fi
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 # Cleanup
 rm -rf /tmp/catppuccin-grub
 
-echo "[chezmoi] Catppuccin Mocha theme installed and GRUB updated!"
+echo "[chezmoi] Catppuccin Mocha grub theme installed!"

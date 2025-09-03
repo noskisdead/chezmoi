@@ -54,9 +54,6 @@ packages=(
   gamemode                  # Game optimization tool
   gamescope                 # Game optimization tool
 
-  # Gaming Accessories
-  wii-u-gc-adapter # Gamecube controller adapter
-
   # ---------------------------
   # 💼 Productivity
   # ---------------------------
@@ -77,9 +74,7 @@ packages=(
   # ---------------------------
 
   # Video
-  mpv               # Video Player
-  mpv-thumbfast-git # MPV addon for ModernX
-  mpv-modernx-git   # MPV Skin
+  mpv # Video Player
 
   # Music
   spotify # Music Player
