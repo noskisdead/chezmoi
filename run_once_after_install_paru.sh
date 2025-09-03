@@ -104,6 +104,7 @@ packages=(
   mullvad-vpn-bin   # VPN client
   unrar             # RAR decompression support
   7zip              # 7Z format support
+  linux-headers     # Drivers
   gcadapter-oc-dkms # Overclock GameCube Adapter
   yazi              # File Manager
 )
