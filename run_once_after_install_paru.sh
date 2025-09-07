@@ -59,8 +59,9 @@ packages=(
   # ---------------------------
 
   # Editors & Notes
-  obsidian # Notes app
-  neovim   # Text Editor
+  obsidian       # Notes app
+  neovim         # Text Editor
+  onlyoffice-bin # Office suite
 
   # Shell & CLI Enhancements
   bat      # Better cat command
@@ -99,6 +100,8 @@ packages=(
   mullvad-vpn-bin   # VPN client
   unrar             # RAR decompression support
   lucidglyph        # Font adjustements
+  ttf-ms-fonts      # Microsoft Fonts
+  apple-fonts       # Apple Fonts
   7zip              # 7Z format support
   linux-headers     # Drivers
   gcadapter-oc-dkms # Overclock GameCube Adapter
