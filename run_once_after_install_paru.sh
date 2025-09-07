@@ -98,6 +98,7 @@ packages=(
   qbittorrent       # Torrenting client
   mullvad-vpn-bin   # VPN client
   unrar             # RAR decompression support
+  lucidglyph        # Font adjustements
   7zip              # 7Z format support
   linux-headers     # Drivers
   gcadapter-oc-dkms # Overclock GameCube Adapter
