@@ -14,32 +14,32 @@ packages=(
   # 🛡️ Cybersecurity
   # ---------------------------
 
-  openvpn # VPN for cybersecurity, Hack The Box and TryHackMe
-  nmap    # Port Enumeration
-  sqlmap  # Tool for automating SQL Injections
-  gobuster
-  ffuf-bin
-  hydra
-  metasploit
-  python2-bin
-  exploitdb
-  wireshark-qt
-  seclists
-  rockyou
-  wifite
-  aircrack-ng
-  hashcat
-  burpsuite
-  john
-  nikto
-  responder
-  gnu-netcat
-  impacket
-  reaver
-  mdk4
-  macchanger
-  bettercap
-  hash-identifier
+  # openvpn # VPN for cybersecurity, Hack The Box and TryHackMe
+  # nmap    # Port Enumeration
+  # sqlmap  # Tool for automating SQL Injections
+  # gobuster
+  # ffuf-bin
+  # hydra
+  # metasploit
+  # python2-bin
+  # exploitdb
+  # wireshark-qt
+  # seclists
+  # rockyou
+  # wifite
+  # aircrack-ng
+  # hashcat
+  # burpsuite
+  # john
+  # nikto
+  # responder
+  # gnu-netcat
+  # impacket
+  # reaver
+  # mdk4
+  # macchanger
+  # bettercap
+  # hash-identifier
 
   # ---------------------------
   # 🎮 Gaming
@@ -88,8 +88,9 @@ packages=(
   # ---------------------------
 
   zen-browser-bin # Web Browser
-  kdeconnect      # Connect phone to PC, sync notifications, etc...
-  vesktop         # Modded Discord client
+  # kdeconnect      # Connect phone to PC, sync notifications, etc...
+  localsend # Share files from every device
+  vesktop   # Modded Discord client
 
   # ---------------------------
   # 🧪 Fun / Miscellaneous
@@ -104,6 +105,7 @@ packages=(
   apple-fonts       # Apple Fonts
   7zip              # 7Z format support
   linux-headers     # Drivers
+  android-udev      # Android USB Support
   gcadapter-oc-dkms # Overclock GameCube Adapter
   yazi              # File Manager
 )
